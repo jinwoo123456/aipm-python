@@ -1,0 +1,15 @@
+1, 1.11, one
+2, 2.22, two
+3, 3.33, three
+
+
+%%writefile sample5.csv
+c1, c2, c3
+1, 1.11, one
+2, , two
+누락,3.33,three
+import pandas as pd
+pd.read_csv('sample2.csv', names=['c1','c2','c3'])
+pd.read_csv('sample2.csv', skiprows=[0,1,4]) # 행 건너뛰기
+
+
