@@ -1,0 +1,12 @@
+{
+  "tttt123123": {
+    "prefix": "tfimports",
+    "body": ["import tensorflow as tf", "from tensorflow import keras", "from tensorflow.keras.models import Sequential", "from tensorflow.keras.layers import Dense, Dropout, Flatten", "from tensorflow.keras.optimizers import Adam", "from tensorflow.keras.preprocessing import image", "import numpy as np", "import matplotlib.pyplot as plt"],
+    "description": "TensorFlow 및 관련 라이브러리 임포트"
+  },
+  "dddd123123": {
+    "prefix": "dataimports",
+    "body": ["import numpy as np", "import pandas as pd", "import matplotlib.pyplot as plt", "import seaborn as sns", "from sklearn.model_selection import train_test_split", "from sklearn.preprocessing import StandardScaler", "from sklearn.metrics import accuracy_score, confusion_matrix"],
+    "description": "데이터 분석을 위한 라이브러리 임포트"
+  }
+}
